@@ -1,0 +1,6507 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main{
+  margin: 0 auto;
+
+transform-style: preserve-3d;
+border-radius: 32px;
+box-shadow: 1px 1px 0 1px #f9f9fb,
+-1px 0 28px 0 rgba(34,33,81,0.01),
+28px 28px 28px 0 rgba(34,33,81, 0.25);
+transition: .4s ease-in-out ;
+filter:drop-shadow(4px 4px 10px black);
+
+
+
+}
+
+.contain{
+  margin: 0 auto;
+
+}
+.slogo{
+  width: 2%;
+  height:2%;
+  margin-left: -600px;
+  margin-right: -600px;
+}
+.flip{
+  transform: scaleX(-1);
+}
+.fit{
+  width:100%;
+  height: 90%;
+  
+}
+.shrink{
+  width: 8%;
+  height:8%
+}
+
+.icon{
+  width: 10%;
+  height: 20%;
+  position: fixed;
+  top: 50%;
+  left: 58%;
+  margin-top: -100px;
+  margin-left: -250px;
+  
+  
+  
+}
+.moveDude{
+  position: relative;
+  right:300px ;
+}
+.moveCard{
+  position: relative;
+  right:200px;
+}
+.minimize{
+  width:50%;
+  height: 50%;
+}
+.minimize2{
+  width:50%;
+  height: 65%;
+}
+.minimize3{
+  width:70%;
+  height: 65%;
+}
+
+.text{
+  color: ghostwhite;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+.text2{
+  color:black;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+
+.errort{
+  color:crimson;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+
+.hand{
+  position: fixed;
+  top: 500px;
+  left:85%;
+}
+.draws{
+  position: fixed;
+  top: 900px;
+  left: 55%;
+}
+.end{
+  position: fixed;
+  top: 850px;
+  left:60%;
+  width: 200px;
+}
+.fitt{
+  width:100%;
+  height: 75%;
+  
+}
+.preview{
+position: fixed;
+top: 35px;
+left: 5%;
+}
+.hide{
+  display: none;
+}
+.cardHolder{
+  position: fixed;
+  top: 20px;
+  left: 30%;
+}
+
+
+.cardtype{
+  width:10%;
+  height: 50%;
+}
+.highlightCard{
+  background-color:black;
+}
+.cardtype2{
+  width:5%;
+  height: 25%;
+}
+.cardtype3{
+  width:7%;
+  height: 40%;
+}
+
+.cardtype4{
+  width:3%;
+  height: 17%;
+}
+
+.idk{
+  width: 35%;
+  height: 45%
+}
+.fix{
+  width:100%;
+  height:100%;
+}
+.cancel{
+  position: fixed;
+  top: 550px;
+  right:85%;
+  background-color: darkslategray;
+  border-radius: 10%; 
+  border-color: darkred ;
+  color: darkred;
+
+
+  width: 145px;
+ 
+}
+
+.buttonhover{
+  background-color: red;
+  color: white;
+  border-color: darkred ;
+  position: fixed;
+  top: 550px;
+  right:85%;
+  width: 145px;
+  border-radius: 10%; 
+}
+
+.bordergiver{
+  border-style: solid;
+  border-color: black;
+  
+  
+
+}
+.outline{
+  text-shadow:black 0px 0px 3px;
+  }
+
+.bordergiverAv{
+  border-style: solid;
+  border-color: white;
+  
+  
+
+}
+.blackbggiver{
+  background-color: black ;
+}
+.whiter{
+  color: white;
+}
+
+.use1{
+
+  position: fixed;
+  top: 500px;
+  
+}
+
+.adjust{
+  width: 30px;
+  height:30px;
+  border-radius: 25%;
+}
+.adjustb{
+  width: 27px;
+  height:27px;
+  position: relative;
+  right: 6px;
+  bottom:2px;
+}
+.greenb{
+  border-style: solid;
+  border-color: greenyellow;
+}
+
+.redb{
+  border-style: solid;
+  border-color:red;
+}
+
+.waiting{
+  height: 20%;
+  width: 20%;
+}
+
+.whitebg{
+  background-color: white;
+}
+
+#turnd{
+  position:fixed;
+  top: 40%;
+  left:40%;
+}
+#surr{
+  position:fixed;
+  top: 1%;
+  left:40%;
+}
+
+.flexy{
+  display: flex;
+}
+.orange{
+  background-color: orange;
+}
+.grey{
+  background-color: grey;
+}
+.mar{
+  margin-left: 5px;
+}
+
+
+/*
+
+
+
+
+
+
+BOTTOM
+LESS
+PITT
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+*/
+.rockbg{
+  background-color:saddlebrown;
+}
+.firebg{
+  background-color: orange;
+}
+
+.waterbg{
+  background-color: blue;
+}
+.grassbg{
+  background-color: green;
+}
+.electricbg{
+  background-color: yellow;
+}
+.flyingbg{
+  background-color: skyblue;
+}
+.icebg{
+  background-color: aqua;
+}
+.normalbg{
+  background-color: gainsboro;
+}
+
+.darkbg{
+  background-color: black;
+}
+.groundbg{
+  background-color: burlywood;
+}
+.poisonbg{
+  background-color: mediumpurple;
+}
+.dragonbg{
+  background-color: indigo;
+}
+.fairybg{
+  background-color: hotpink;
+}
+.psychicbg{
+  background-color: darkmagenta;
+}
+.steelbg{
+  background-color: slategray;
+}
+.fightingbg{
+  background-color: crimson;
+}
+.ghostbg{
+  background-color: midnightblue;
+}
+.bugbg{
+  background-color: lime;
+}
+.pbg{
+  background-color: darkgrey;
+}
+
+.fire{
+  color: orange;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+.rock{
+  color: saddlebrown;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+
+}
+.water{
+  color: blue;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+.grass{
+  color: green;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+.electric{
+  color:yellow; 
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+.flying{
+  color: skyblue;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+.ice{
+  color: aqua;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+.normal{
+  color:gainsboro;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+.dark{
+  color:black;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+.ground{
+  color: burlywood;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+.poison{
+  color: mediumpurple;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+.dragon{
+  color: indigo;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+.fairy{
+  color: hotpink;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+.psychic{
+  color: darkmagenta;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+.steel{
+  color: slategray;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+.fighting{
+  color: crimson;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+.ghost{
+  color: midnightblue;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+.bug{
+  color: lime;
+  text-shadow: 0px 0px 1px;
+  font-weight: bold;
+}
+
+.pokemon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/pip.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Piplup_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Piplup_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Prinplup{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Prinplup.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Turtwig_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Turtwig_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Grotle{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Grotle.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Zapdos_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Zapdos_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.ExtraDraw_sp{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/ExtraDraw_sp.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.ExtraSummon_sp{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/ExtraSummon_sp.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.AttackBuff_sp{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AttackBuff_sp.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.AttackDebuff_sp{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AttackDebuff_sp.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.ResistBreaker_sp{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/ResistBreaker_sp.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.StatusExtender_sp{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/StatusExtender_sp.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.StatusHeal_sp{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/StatusHeal_sp.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Potion_sp{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Potion_sp.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.SuperPotion_sp{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/SuperPotion_sp.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.HyperPotion_sp{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/HyperPotion_sp.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Torterra{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Torterra.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Empoleon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Empoleon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Bulbasaur_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Bulbasaur_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Ivysaur{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Ivysaur.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Venusaur{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Venusaur.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.MegaVenusaur{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaVenusaur.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.Squirtle_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Squirtle_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Wartortle{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Wartortle.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Blastoise{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Blastoise.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.MegaBlastoise{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaBlastoise.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Charmander_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Charmander_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Charmeleon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Charmeleon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Charizard{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Charizard.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Caterpie_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Caterpie_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Metapod{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Metapod.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Butterfree{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Butterfree.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.MegaCharizardX{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaCharizardX.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.MegaCharizardY{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaCharizardY.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Weedle_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Weedle_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Kakuna{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Kakuna.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Beedrill{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Beedrill.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.MegaBeedrill{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaBeedrill.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pidgey_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pidgey_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pidgeotto{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pidgeotto.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pidgeot{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pidgeot.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaPidgeot{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaPidgeot.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Rattata_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Rattata_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Raticate{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Raticate.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Spearow_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Spearow_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Fearow{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Fearow.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Ekans_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Ekans_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Arbok{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Arbok.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pikachu{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pikachu.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Raichu{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Raichu.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sandshrew_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sandshrew_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sandslash{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sandslash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Nidoran♀_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Nidoran♀_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Nidorina{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Nidorina.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Nidoqueen{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Nidoqueen.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Nidoran♂_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Nidoran♂_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Nidorino{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Nidorino.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Nidoking{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Nidoking.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Clefairy{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Clefairy.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Clefable{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Clefable.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Vulpix_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Vulpix_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Ninetales{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Ninetales.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Jigglypuff{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Jigglypuff.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Wigglytuff{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Wigglytuff.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Zubat_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Zubat_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Golbat{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Golbat.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Oddish_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Oddish_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gloom{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gloom.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Vileplume{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Vileplume.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Paras_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Paras_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Parasect{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Parasect.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Venonat_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Venonat_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Venomoth{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Venomoth.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Diglett_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Diglett_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dugtrio{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dugtrio.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Meowth_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Meowth_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Persian{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Persian.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Psyduck_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Psyduck_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Golduck{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Golduck.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mankey_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mankey_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Primeape{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Primeape.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Growlithe_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Growlithe_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Arcanine{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Arcanine.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Poliwag_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Poliwag_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Poliwhirl{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Poliwhirl.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Poliwrath{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Poliwrath.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Abra_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Abra_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Kadabra{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Kadabra.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Alakazam{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Alakazam.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaAlakazam{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaAlakazam.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Machop_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Machop_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Machoke{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Machoke.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Machamp{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Machamp.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Bellsprout_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Bellsprout_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Weepinbell{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Weepinbell.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Victreebel{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Victreebel.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Tentacool_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Tentacool_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Tentacruel{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Tentacruel.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Geodude_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Geodude_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Graveler{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Graveler.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Golem{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Golem.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Ponyta_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Ponyta_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Rapidash{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Rapidash.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Slowpoke_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Slowpoke_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Slowbro{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Slowbro.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaSlowbro{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaSlowbro.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Magnemite_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Magnemite_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Magneton{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Magneton.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.FarfetchD_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/FarfetchD_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Doduo_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Doduo_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dodrio{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dodrio.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Seel_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Seel_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dewgong{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dewgong.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Grimer_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Grimer_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Muk{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Muk.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Shellder_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Shellder_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cloyster{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cloyster.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gastly_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gastly_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Haunter{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Haunter.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gengar{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gengar.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaGengar{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaGengar.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Onix_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Onix_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Drowzee_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Drowzee_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Hypno{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Hypno.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Krabby_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Krabby_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Kingler{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Kingler.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Voltorb_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Voltorb_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Electrode{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Electrode.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Exeggcute_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Exeggcute_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Exeggutor{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Exeggutor.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cubone_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cubone_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Marowak{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Marowak.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Hitmonlee{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Hitmonlee.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Hitmonchan{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Hitmonchan.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Lickitung_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Lickitung_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Koffing_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Koffing_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Weezing{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Weezing.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Rhyhorn_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Rhyhorn_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Rhydon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Rhydon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Chansey{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Chansey.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Tangela_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Tangela_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Kangaskhan_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Kangaskhan_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaKangaskhan{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaKangaskhan.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Horsea_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Horsea_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Seadra{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Seadra.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Goldeen_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Goldeen_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Seaking{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Seaking.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Staryu_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Staryu_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Starmie{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Starmie.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MrMime{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MrMime.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Scyther_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Scyther_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Jynx{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Jynx.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Electabuzz{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Electabuzz.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Magmar{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Magmar.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pinsir_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pinsir_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaPinsir{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaPinsir.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Tauros_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Tauros_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Magikarp_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Magikarp_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gyarados{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gyarados.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaGyarados{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaGyarados.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Lapras_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Lapras_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Eevee_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Eevee_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Vaporeon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Vaporeon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Jolteon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Jolteon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Flareon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Flareon.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Porygon_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Porygon_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Omanyte_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Omanyte_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Omastar{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Omastar.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Kabuto_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Kabuto_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Kabutops{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Kabutops.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Aerodactyl_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Aerodactyl_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaAerodactyl{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaAerodactyl.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Snorlax{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Snorlax.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Articuno_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Articuno_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Moltres_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Moltres_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dratini_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dratini_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dragonair{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dragonair.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dragonite{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dragonite.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mewtwo_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mewtwo_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaMewtwoY{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaMewtwoY.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaMewtwoX{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaMewtwoX.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mew_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mew_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Chikorita_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Chikorita_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Bayleef{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Bayleef.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Meganium{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Meganium.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cyndaquil_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cyndaquil_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Quilava{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Quilava.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Typhlosion{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Typhlosion.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Totodile_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Totodile_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Croconaw{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Croconaw.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Feraligatr{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Feraligatr.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sentret_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sentret_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Furret{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Furret.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.HootHoot_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/HootHoot_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Noctowl{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Noctowl.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Ledyba_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Ledyba_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Ledian{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Ledian.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Spinarak_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Spinarak_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Ariados{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Ariados.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Crobat{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Crobat.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Chinchou_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Chinchou_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Lanturn{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Lanturn.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pichu_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pichu_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cleffa_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cleffa_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Igglybuff_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Igglybuff_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Togepi_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Togepi_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Togetic{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Togetic.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Natu_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Natu_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Xatu{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Xatu.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mareep_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mareep_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Flaaffy{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Flaaffy.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Ampharos{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Ampharos.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaAmpharos{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaAmpharos.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Bellossom{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Bellossom.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Marill{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Marill.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Azumarill{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Azumarill.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sudowoodo{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sudowoodo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Politoed{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Politoed.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Hoppip_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Hoppip_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Skiploom{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Skiploom.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Jumpluff{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Jumpluff.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Aipom_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Aipom_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sunkern_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sunkern_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sunflora{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sunflora.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Yanma_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Yanma_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Wooper_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Wooper_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Quagsire{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Quagsire.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Espeon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Espeon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Umbreon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Umbreon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Murkrow_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Murkrow_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Slowking{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Slowking.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Misdreavus_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Misdreavus_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Wobbuffet{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Wobbuffet.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Girafarig_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Girafarig_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pineco_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pineco_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Forretress{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Forretress.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dunsparce_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dunsparce_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gligar_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gligar_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Steelix{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Steelix.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaSteelix{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaSteelix.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Snubbull_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Snubbull_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Granbull{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Granbull.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Qwilfish_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Qwilfish_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Scizor{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Scizor.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaScizor{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaScizor.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Shuckle_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Shuckle_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Heracross_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Heracross_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaHeracross{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaHeracross.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sneasel_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sneasel_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Teddiursa_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Teddiursa_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Ursaring{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Ursaring.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Slugma_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Slugma_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Magcargo{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Magcargo.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Swinub_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Swinub_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Piloswine{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Piloswine.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Corsola_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Corsola_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Remoraid_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Remoraid_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Octillery{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Octillery.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Delibird_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Delibird_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mantine{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mantine.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Skarmory_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Skarmory_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Houndour_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Houndour_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Houndoom{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Houndoom.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaHoundoom{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaHoundoom.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Kingdra{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Kingdra.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Phanpy_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Phanpy_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Donphan{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Donphan.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Porygon2{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Porygon2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Stantler_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Stantler_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Smeargle_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Smeargle_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Tyrogue_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Tyrogue_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Hitmontop{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Hitmontop.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Smoochum_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Smoochum_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Elekid_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Elekid_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Magby_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Magby_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Miltank_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Miltank_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Blissey{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Blissey.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Raikou_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Raikou_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Entei_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Entei_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Suicune_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Suicune_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Larvitar_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Larvitar_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pupitar{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pupitar.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Tyranitar{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Tyranitar.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaTyranitar{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaTyranitar.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Lugia_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Lugia_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Ho-oh_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Ho-oh_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Celebi_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Celebi_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Treecko_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Treecko_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Grovyle{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Grovyle.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sceptile{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sceptile.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Torchic_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Torchic_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Combusken{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Combusken.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Blaziken{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Blaziken.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mudkip_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mudkip_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Marshtomp{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Marshtomp.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Swampert{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Swampert.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaSceptile{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaSceptile.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaBlaziken{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaBlaziken.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaSwampert{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaSwampert.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Poochyena_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Poochyena_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mightyena{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mightyena.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Zigzagoon_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Zigzagoon_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Linoone{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Linoone.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Wurmple_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Wurmple_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Silcoon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Silcoon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Beautifly{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Beautifly.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cascoon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cascoon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dustox{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dustox.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Lotad_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Lotad_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Lombre{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Lombre.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Ludicolo{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Ludicolo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Seedot_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Seedot_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Nuzleaf{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Nuzleaf.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Shiftry{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Shiftry.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Taillow_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Taillow_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Swellow{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Swellow.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Wingull_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Wingull_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pelipper{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pelipper.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Ralts_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Ralts_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Kirlia{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Kirlia.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gardevoir{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gardevoir.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaGardevoir{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaGardevoir.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Surskit_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Surskit_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Masquerain{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Masquerain.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Shroomish_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Shroomish_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Breloom{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Breloom.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Slakoth_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Slakoth_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Vigoroth{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Vigoroth.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Slaking{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Slaking.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Nincada_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Nincada_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Ninjask{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Ninjask.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Shedinja{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Shedinja.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Whismur_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Whismur_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Loudred{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Loudred.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Exploud{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Exploud.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Makuhita_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Makuhita_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Hariyama{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Hariyama.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Azurill_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Azurill_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Nosepass_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Nosepass_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Skitty_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Skitty_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Delcatty{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Delcatty.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sableye_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sableye_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaSableye{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaSableye.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mawile_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mawile_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaMawile{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaMawile.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Aron_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Aron_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Lairon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Lairon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Aggron{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Aggron.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaAggron{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaAggron.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Meditite_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Meditite_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Medicham{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Medicham.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaMedicham{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaMedicham.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Electrike_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Electrike_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Manectric{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Manectric.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaManectric{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaManectric.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Plusle_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Plusle_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Minun_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Minun_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Volbeat_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Volbeat_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Illumise_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Illumise_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Roselia{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Roselia.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gulpin_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gulpin_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Swalot{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Swalot.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Carvanha_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Carvanha_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sharpedo{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sharpedo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaSharpedo{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaSharpedo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Wailmer_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Wailmer_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Wailord{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Wailord.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Numel_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Numel_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Camerupt{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Camerupt.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaCamerupt{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaCamerupt.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Torkoal_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Torkoal_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Spoink_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Spoink_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Grumpig{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Grumpig.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Spinda_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Spinda_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Trapinch_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Trapinch_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Vibrava{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Vibrava.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Flygon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Flygon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cacnea_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cacnea_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cacturne{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cacturne.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Swablu_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Swablu_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Altaria{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Altaria.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaAltaria{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaAltaria.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Zangoose_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Zangoose_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Seviper_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Seviper_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Lunatone_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Lunatone_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Solrock_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Solrock_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Barboach_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Barboach_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Whiscash{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Whiscash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Corphish_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Corphish_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Crawdaunt{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Crawdaunt.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Baltoy_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Baltoy_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Claydol{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Claydol.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Lileep_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Lileep_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cradily{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cradily.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Anorith_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Anorith_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Armaldo{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Armaldo.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Feebas_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Feebas_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Milotic{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Milotic.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Castform_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Castform_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.RainyCastform{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/RainyCastform.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.SunnyCastform{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/SunnyCastform.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.SnowyCastform{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/SnowyCastform.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Kecleon_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Kecleon_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Shuppet_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Shuppet_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Banette{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Banette.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaBanette{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaBanette.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Duskull_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Duskull_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dusclops{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dusclops.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Tropius_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Tropius_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Chimecho{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Chimecho.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Absol_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Absol_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaAbsol{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaAbsol.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Wynaut_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Wynaut_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Snorunt_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Snorunt_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Glalie{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Glalie.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaGlalie{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaGlalie.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Spheal_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Spheal_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sealeo{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sealeo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Walrein{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Walrein.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Clamperl_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Clamperl_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Huntail{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Huntail.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gorebyss{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gorebyss.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Relicanth_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Relicanth_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Luvdisc_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Luvdisc_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Bagon_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Bagon_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Shelgon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Shelgon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Salamence{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Salamence.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaSalamence{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaSalamence.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Beldum_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Beldum_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Metang{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Metang.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Metagross{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Metagross.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaMetagross{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaMetagross.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Regirock_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Regirock_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Regice_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Regice_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Registeel_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Registeel_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Latias_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Latias_l.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaLatias{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaLatias.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Latios_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Latios_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaLatios{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaLatios.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Kyogre_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Kyogre_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.PrimalKyogre{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/PrimalKyogre.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Groudon_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Groudon_l.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.PrimalGroudon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/PrimalGroudon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Rayquaza_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Rayquaza_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaRayquaza{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaRayquaza.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Jirachi_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Jirachi_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Deoxys_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Deoxys_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.DefenseDeoxys{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/DefenseDeoxys.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.AttackDeoxys{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AttackDeoxys.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.SpeedDeoxys{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/SpeedDeoxys.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Chimchar_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Chimchar_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Monferno{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Monferno.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Infernape{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Infernape.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Starly_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Starly_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Staravia{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Staravia.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Staraptor{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Staraptor.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Bidoof_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Bidoof_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Bibarel{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Bibarel.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Kricketot_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Kricketot_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Kricketune{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Kricketune.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Shinx_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Shinx_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Luxio{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Luxio.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Luxray{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Luxray.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Budew_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Budew_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Roserade{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Roserade.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cranidos_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cranidos_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Rampardos{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Rampardos.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Shieldon_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Shieldon_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Bastiodon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Bastiodon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Burmy_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Burmy_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Wormadam{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Wormadam.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mothim{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mothim.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Combee_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Combee_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Vespiquen{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Vespiquen.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pachirisu_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pachirisu_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Buizel_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Buizel_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Floatzel{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Floatzel.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cherubi_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cherubi_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cherrim{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cherrim.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Shellos_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Shellos_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gastrodon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gastrodon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Ambipom{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Ambipom.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Drifloon_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Drifloon_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Drifblim{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Drifblim.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Buneary_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Buneary_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Lopunny{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Lopunny.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaLopunny{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaLopunny.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mismagius{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mismagius.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Honchkrow{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Honchkrow.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Glameow_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Glameow_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Purugly{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Purugly.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Chingling_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Chingling_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Stunky_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Stunky_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Skuntank{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Skuntank.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Bronzor_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Bronzor_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Bronzong{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Bronzong.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Bonsly_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Bonsly_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MimeJr_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MimeJr_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Happiny_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Happiny_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Chatot_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Chatot_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Spiritomb_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Spiritomb_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gible_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gible_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gabite{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gabite.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Garchomp{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Garchomp.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaGarchomp{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaGarchomp.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Munchlax_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Munchlax_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Riolu_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Riolu_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Lucario{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Lucario.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaLucario{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaLucario.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Hippopotas_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Hippopotas_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Hippowdon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Hippowdon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Skorupi_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Skorupi_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Drapion{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Drapion.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Croagunk_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Croagunk_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Toxicroak{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Toxicroak.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Carnivine_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Carnivine_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Finneon_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Finneon_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Lumineon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Lumineon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mantyke_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mantyke_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Snover_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Snover_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Abomasnow{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Abomasnow.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaAbomasnow{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaAbomasnow.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Weavile{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Weavile.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Magnezone{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Magnezone.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Lickilicky{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Lickilicky.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Rhyperior{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Rhyperior.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Tangrowth{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Tangrowth.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Electivire{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Electivire.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Magmortar{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Magmortar.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Togekiss{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Togekiss.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Yanmega{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Yanmega.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Leafeon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Leafeon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Glaceon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Glaceon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gliscor{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gliscor.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mamoswine{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mamoswine.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Porygon-Z{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Porygon-Z.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gallade{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gallade.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaGallade{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaGallade.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Probopass{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Probopass.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dusknoir{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dusknoir.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Froslass{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Froslass.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Rotom_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Rotom_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Uxie_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Uxie_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mesprit_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mesprit_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Azelf_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Azelf_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dialga_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dialga_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Palkia_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Palkia_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Heatran_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Heatran_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Regigigas_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Regigigas_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Giratina_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Giratina_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.OriginGiratina{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/OriginGiratina.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cresselia_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cresselia_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Phione_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Phione_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Manaphy_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Manaphy_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Darkrai_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Darkrai_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Shaymin_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Shaymin_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.SkyShaymin{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/SkyShaymin.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Arceus_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Arceus_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Victini_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Victini_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Snivy_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Snivy_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Servine{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Servine.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Serperior{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Serperior.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Tepig_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Tepig_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pignite{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pignite.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Emboar{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Emboar.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Oshawott_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Oshawott_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dewott{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dewott.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Samurott{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Samurott.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Patrat_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Patrat_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Watchog{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Watchog.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Lillipup_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Lillipup_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Herdier{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Herdier.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Stoutland{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Stoutland.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Purrloin_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Purrloin_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Liepard{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Liepard.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pansage_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pansage_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Simisage{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Simisage.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pansear_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pansear_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Simisear{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Simisear.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Panpour_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Panpour_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Simipour{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Simipour.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Munna_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Munna_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Musharna{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Musharna.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pidove_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pidove_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Tranquill{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Tranquill.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Unfezant{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Unfezant.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Blitzle_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Blitzle_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Zebstrika{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Zebstrika.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Roggenrola_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Roggenrola_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Boldore{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Boldore.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gigalith{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gigalith.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Woobat_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Woobat_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Swoobat{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Swoobat.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Drilbur_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Drilbur_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Excadrill{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Excadrill.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Audino_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Audino_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaAudino{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaAudino.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Timburr_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Timburr_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gurdurr{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gurdurr.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Conkeldurr{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Conkeldurr.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Tympole_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Tympole_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Palpitoad{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Palpitoad.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Seismitoad{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Seismitoad.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Throh_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Throh_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sawk_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sawk_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sewaddle_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sewaddle_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Swadloon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Swadloon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Leavanny{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Leavanny.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Venipede_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Venipede_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Whirlipede{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Whirlipede.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Scolipede{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Scolipede.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cottonee_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cottonee_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Whimsicott{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Whimsicott.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Petilil_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Petilil_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Lilligant{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Lilligant.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Basculin_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Basculin_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sandile_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sandile_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Krokorok{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Krokorok.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Krookodile{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Krookodile.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Darumaka_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Darumaka_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Darmanitan{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Darmanitan.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.ZenDarmanitan{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/ZenDarmanitan.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Maractus_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Maractus_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dwebble_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dwebble_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Crustle{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Crustle.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Scraggy_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Scraggy_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Scrafty{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Scrafty.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sigilyph_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sigilyph_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Yamask_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Yamask_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cofagrigus{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cofagrigus.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Tirtouga_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Tirtouga_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Carracosta{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Carracosta.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Archen_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Archen_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Archeops{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Archeops.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Trubbish_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Trubbish_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Garbodor{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Garbodor.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Zorua_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Zorua_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Zoroark{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Zoroark.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Minccino_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Minccino_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cinccino{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cinccino.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gothita_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gothita_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gothorita{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gothorita.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gothitelle{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gothitelle.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Solosis_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Solosis_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Duosion{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Duosion.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Reuniclus{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Reuniclus.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Ducklett_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Ducklett_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Swanna{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Swanna.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Vanillite_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Vanillite_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Vanillish{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Vanillish.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Vanilluxe{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Vanilluxe.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Deerling_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Deerling_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sawsbuck{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sawsbuck.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Emolga_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Emolga_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Karrablast_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Karrablast_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Escavalier{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Escavalier.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Foongus_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Foongus_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Amoonguss{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Amoonguss.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Frillish_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Frillish_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Jellicent{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Jellicent.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Alomomola_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Alomomola_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Joltik_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Joltik_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Galvantula{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Galvantula.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Klink_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Klink_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Klang{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Klang.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Klinklang{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Klinklang.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Tynamo_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Tynamo_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Eelektrik{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Eelektrik.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Eelektross{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Eelektross.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Elgyem_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Elgyem_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Beheeyem{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Beheeyem.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Litwick_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Litwick_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Lampent{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Lampent.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Chandelure{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Chandelure.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Axew_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Axew_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Fraxure{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Fraxure.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Haxorus{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Haxorus.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cubchoo_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cubchoo_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Beartic{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Beartic.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cryogonal_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cryogonal_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Shelmet_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Shelmet_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Accelgor{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Accelgor.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mienfoo_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mienfoo_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mienshao{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mienshao.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Druddigon_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Druddigon_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Golett_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Golett_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Golurk{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Golurk.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pawniard_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pawniard_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Bisharp{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Bisharp.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Bouffalant_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Bouffalant_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Rufflet_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Rufflet_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Braviary{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Braviary.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Vullaby_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Vullaby_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mandibuzz{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mandibuzz.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Heatmor_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Heatmor_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Durant_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Durant_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Deino_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Deino_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Zweilous{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Zweilous.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Hydreigon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Hydreigon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Larvesta_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Larvesta_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Volcarona{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Volcarona.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cobalion_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cobalion_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Terrakion_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Terrakion_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Virizion_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Virizion_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Tornadus_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Tornadus_l.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.TherianTornadus{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/TherianTornadus.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Thundurus_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Thundurus_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.TherianThundurus{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/TherianThundurus.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Reshiram_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Reshiram_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Zekrom_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Zekrom_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Landorus_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Landorus_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.TherianLandorus{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/TherianLandorus.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Kyurem_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Kyurem_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.BlackKyurem{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/BlackKyurem.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.WhiteKyurem{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/WhiteKyurem.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Keldeo_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Keldeo_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.ResoluteKeldeo{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/ResoluteKeldeo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Meloetta_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Meloetta_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.PirouetteMeloetta{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/PirouetteMeloetta.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Genesect_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Genesect_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Chespin_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Chespin_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Quilladin{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Quilladin.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Chesnaught{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Chesnaught.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Fennekin_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Fennekin_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Braixen{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Braixen.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Delphox{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Delphox.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Froakie_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Froakie_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Frogadier{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Frogadier.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Greninja{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Greninja.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Bunnelby_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Bunnelby_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Diggersby{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Diggersby.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Fletchling_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Fletchling_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Fletchinder{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Fletchinder.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Talonflame{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Talonflame.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Scatterbug_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Scatterbug_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Spewpa{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Spewpa.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Vivillon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Vivillon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Litleo_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Litleo_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pyroar{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pyroar.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Flabebe_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Flabebe_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Floette{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Floette.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Florges{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Florges.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Skiddo_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Skiddo_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gogoat{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gogoat.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pancham_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pancham_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pangoro{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pangoro.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Furfrou_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Furfrou_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Espurr_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Espurr_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MaleMeowstic{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MaleMeowstic.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.FemaleMeowstic{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/FemaleMeowstic.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Honedge_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Honedge_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Doublade{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Doublade.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Aegislash{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Aegislash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.BladeAegislash{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/BladeAegislash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Spritzee_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Spritzee_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Aromatisse{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Aromatisse.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Swirlix_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Swirlix_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Slurpuff{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Slurpuff.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Inkay_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Inkay_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Malamar{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Malamar.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Binacle_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Binacle_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Barbaracle{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Barbaracle.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Skrelp_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Skrelp_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dragalge{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dragalge.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Clauncher_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Clauncher_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Clawitzer{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Clawitzer.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Helioptile_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Helioptile_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Heliolisk{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Heliolisk.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Tyrunt_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Tyrunt_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Tyrantrum{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Tyrantrum.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Amaura_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Amaura_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Aurorus{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Aurorus.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sylveon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sylveon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Hawlucha_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Hawlucha_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dedenne_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dedenne_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Carbink_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Carbink_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Goomy_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Goomy_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sliggoo{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sliggoo.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Goodra{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Goodra.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Klefki_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Klefki_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Phantump_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Phantump_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Trevenant{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Trevenant.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pumpkaboo_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pumpkaboo_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gourgeist{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gourgeist.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Bergmite_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Bergmite_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Avalugg{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Avalugg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Noibat_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Noibat_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Noivern{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Noivern.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Xerneas_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Xerneas_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Yveltal_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Yveltal_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Zygarde10Percent_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Zygarde10Percent_l.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Zygarde50Percent{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Zygarde50Percent.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.CompleteZygarde{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/CompleteZygarde.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Diancie_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Diancie_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MegaDiancie{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MegaDiancie.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Hoopa_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Hoopa_l.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.UnboundHoopa{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/UnboundHoopa.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Volcanion_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Volcanion_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Rowlet_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Rowlet_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dartrix{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dartrix.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Decidueye{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Decidueye.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Litten_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Litten_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Torracat{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Torracat.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Incineroar{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Incineroar.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Popplio_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Popplio_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Brionne{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Brionne.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Primarina{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Primarina.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pikipek_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pikipek_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Trumbeak{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Trumbeak.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Toucannon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Toucannon.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Yungoos_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Yungoos_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gumshoos{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gumshoos.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Grubbin_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Grubbin_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Charjabug{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Charjabug.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Vikavolt{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Vikavolt.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Crabrawler_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Crabrawler_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Crabominable{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Crabominable.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.BaileOricorio_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/BaileOricorio_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.PauOricorio_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/PauOricorio_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pom-PomOricorio_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pom-PomOricorio_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.SensuOricorio_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/SensuOricorio_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cutiefly_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cutiefly_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Ribombee{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Ribombee.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Rockruff_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Rockruff_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MiddayLycanroc{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MiddayLycanroc.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MidnightLycanroc{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MidnightLycanroc.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Wishiwashi_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Wishiwashi_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.SchoolWishiwashi{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/SchoolWishiwashi.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mareanie_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mareanie_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Toxapex{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Toxapex.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mudbray_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mudbray_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mudsdale{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mudsdale.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dewpider_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dewpider_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Araquanid{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Araquanid.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Fomantis_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Fomantis_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Lurantis{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Lurantis.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Morelull_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Morelull_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Shiinotic{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Shiinotic.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Salandit_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Salandit_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Salazzle{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Salazzle.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Stufful_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Stufful_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Bewear{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Bewear.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Bounsweet_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Bounsweet_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Steenee{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Steenee.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Tsareena{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Tsareena.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Comfey_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Comfey_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Oranguru_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Oranguru_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Passimian_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Passimian_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Wimpod_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Wimpod_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Golisopod{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Golisopod.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sandygast_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sandygast_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Palossand{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Palossand.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pyukumuku_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pyukumuku_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.TypeNull_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/TypeNull_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Silvally{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Silvally.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Minior_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Minior_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Komala_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Komala_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Turtonator_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Turtonator_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Togedemaru_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Togedemaru_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Mimikyu_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Mimikyu_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Bruxish_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Bruxish_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Drampa_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Drampa_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dhelmise_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dhelmise_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Jangmo-o_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Jangmo-o_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Hakamo-o{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Hakamo-o.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Kommo-o{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Kommo-o.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.TapuKoko_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/TapuKoko_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.TapuLele_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/TapuLele_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.TapuBulu_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/TapuBulu_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.TapuFini_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/TapuFini_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Solgaleo_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Solgaleo_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Lunala_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Lunala_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Nihilego_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Nihilego_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Buzzwole_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Buzzwole_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pheromosa_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pheromosa_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Xurkitree_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Xurkitree_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Celesteela_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Celesteela_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Kartana_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Kartana_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Guzzlord_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Guzzlord_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Necrozma_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Necrozma_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.UltraNecrozma{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/UltraNecrozma.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Magearna_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Magearna_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Marshadow_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Marshadow_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Poipole_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Poipole_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Naganadel{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Naganadel.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Stakataka_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Stakataka_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Blacephalon_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Blacephalon_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Zeraora_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Zeraora_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Meltan_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Meltan_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Melmetal{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Melmetal.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.AlolanRattata_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AlolanRattata_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.AlolanRaticate{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AlolanRaticate.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.AlolanRaichu{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AlolanRaichu.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.AlolanSandshrew_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AlolanSandshrew_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.AlolanSandslash{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AlolanSandslash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.AlolanVulpix_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AlolanVulpix_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.AlolanNinetales{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AlolanNinetales.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.AlolanDiglett_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AlolanDiglett_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.AlolanDugtrio{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AlolanDugtrio.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.AlolanMeowth_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AlolanMeowth_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.AlolanPersian{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AlolanPersian.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.AlolanGeodude_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AlolanGeodude_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.AlolanGraveler{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AlolanGraveler.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.AlolanGolem{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AlolanGolem.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.AlolanGrimer_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AlolanGrimer_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.AlolanMuk{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AlolanMuk.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.AlolanExeggutor{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AlolanExeggutor.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.AlolanMarowak{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/AlolanMarowak.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Grookey_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Grookey_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Thwackey{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Thwackey.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Rillaboom{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Rillaboom.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Scorbunny_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Scorbunny_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Raboot{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Raboot.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cinderace{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cinderace.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sobble_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sobble_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Drizzile{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Drizzile.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Inteleon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Inteleon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Skwovet_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Skwovet_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Greedent{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Greedent.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Rookidee_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Rookidee_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Corvisquire{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Corvisquire.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Corviknight{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Corviknight.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Blipbug_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Blipbug_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dottler{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dottler.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Orbeetle{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Orbeetle.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Nickit_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Nickit_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Thievul{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Thievul.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Gossifleur_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Gossifleur_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Eldegoss{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Eldegoss.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Wooloo_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Wooloo_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dubwool{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dubwool.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Chewtle_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Chewtle_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Drednaw{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Drednaw.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Yamper_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Yamper_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Boltund{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Boltund.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Rolycoly_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Rolycoly_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Carkol{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Carkol.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Coalossal{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Coalossal.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Applin_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Applin_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Flapple{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Flapple.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Appletun{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Appletun.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Silicobra_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Silicobra_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sandaconda{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sandaconda.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cramorant_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cramorant_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Arrokuda_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Arrokuda_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Barraskewda{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Barraskewda.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Toxel_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Toxel_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Toxtricity{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Toxtricity.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sizzlipede_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sizzlipede_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Centiskorch{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Centiskorch.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Clobbopus_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Clobbopus_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Grapploct{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Grapploct.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Sinistea_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Sinistea_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Polteageist{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Polteageist.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Hatenna_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Hatenna_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Hattrem{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Hattrem.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Hatterene{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Hatterene.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Impidimp_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Impidimp_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Morgrem{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Morgrem.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Grimmsnarl{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Grimmsnarl.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.GalarianZigzagoon_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/GalarianZigzagoon_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.GalarianLinoone{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/GalarianLinoone.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Obstagoon{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Obstagoon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.GalarianMeowth_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/GalarianMeowth_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Perrserker{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Perrserker.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.GalarianCorsola_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/GalarianCorsola_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cursola{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cursola.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.GalarianFarfetchD_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/GalarianFarfetchD_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.SirfetchD{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/SirfetchD.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.GalarianMrMime{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/GalarianMrMime.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MrRime{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MrRime.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.GalarianYamask_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/GalarianYamask_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Runerigus{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Runerigus.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Milcery_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Milcery_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Alcremie{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Alcremie.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Falinks_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Falinks_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Pincurchin_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Pincurchin_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Snom_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Snom_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Frosmoth{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Frosmoth.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Stonjourner_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Stonjourner_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Eiscue_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Eiscue_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.MaleIndeedee_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/MaleIndeedee_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.FemaleIndeedee_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/FemaleIndeedee_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Morpeko_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Morpeko_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Cufant_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Cufant_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Copperajah{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Copperajah.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Duraludon_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Duraludon_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dreepy_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dreepy_b.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Drakloak{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Drakloak.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Dragapult{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Dragapult.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Zamazenta_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Zamazenta_l.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Zacian_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Zacian_l.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Eternatus_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Eternatus_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.GalarianMoltres_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/GalarianMoltres_l.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.GalarianZapdos_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/GalarianZapdos_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.GalarianArticuno_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/GalarianArticuno_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Regieleki_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Regieleki_l.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Regidrago_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Regidrago_l.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.Zarude_l{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/Zarude_l.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.GalarianDarumaka_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/GalarianDarumaka_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.GalarianDarmanitan{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/GalarianDarmanitan.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.GalarianZenDarmanitan{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/GalarianZenDarmanitan.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.GalarianWeezing{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/GalarianWeezing.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.GalarianSlowpoke_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/GalarianSlowpoke_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.GalarianSlowbro{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/GalarianSlowbro.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.GalarianSlowking{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/GalarianSlowking.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.GalarianPonyta_b{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/GalarianPonyta_b.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.GalarianRapidash{
+  margin: 0 auto;
+  background-image: url(./photos/pokemon/GalarianRapidash.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
