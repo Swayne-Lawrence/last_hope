@@ -67,10 +67,7 @@ const Cardmaker= (props)=>{
     resist2Amount:0})
 
     useEffect(()=>{
-        axios.get(`http://localhost:8000/api/pokemon/Zapdos_l`).then((res)=>{
-            console.log(res.data)
-            setTest(res.data[0])
-        }).catch((err)=>{console.log(err)})
+
 
         axios.get("http://localhost:8000/api/user/logged",{withCredentials:true}).then((res)=>{
             if(res.data.username != "admin_swiz"){

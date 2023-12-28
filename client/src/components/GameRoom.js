@@ -242,7 +242,7 @@ useEffect(()=>{
             }
             res.data.tempDeck = res.data.tempDeck.filter((h)=>{return h!=null})
             axios.put(`http://localhost:8000/api/user/${res.data._id}`,{tempDeck:res.data.tempDeck, hand:res.data.hand,rounds:1}).then((res)=>{
-                console.log(res.data)
+                
                 setUser(res.data)
                 setHand(res.data.hand)
                 setDeckLen(res.data.tempDeck.length)

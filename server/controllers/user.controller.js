@@ -36,7 +36,7 @@ module.exports={
             username:user.username
         },process.env.JWT_SECRET),{
             httpOnly:true,
-            expires: new Date(Date.now()+9000000)
+            expires: new Date(Date.now()+900000000000)
         }).json({
             message:"Success",
             userLoggedIn: user.username
